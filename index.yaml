@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  base-chart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-08-31T00:46:30.779782+02:00"
+    description: A Helm chart for Kubernetes
+    digest: dd2ac24ca4dac61a72d04e33f71e48dd0073e7c2abce79b1e1c6c7c99db19c6a
+    maintainers:
+    - name: ganniterix
+      url: https://github.com/ganniterix
+    name: base-chart
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/base-chart-0.4.0.tgz
+    version: 0.4.0
+generated: "2023-08-31T00:46:30.777305+02:00"
