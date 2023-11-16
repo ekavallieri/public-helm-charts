@@ -1,0 +1,11 @@
+# _config.yaml
+title: Our example Helm chart repo
+description: A chart repo for storing charts.
+theme: minima
+url: "https://ekavallieri.github.io/public-helm-charts"
+repo_name: e-kavallieri
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
