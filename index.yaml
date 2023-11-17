@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   adguardhome-sync:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:01.983188+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''adguardhome-sync'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//adguardhome-sync'
+    digest: f8a9022dcd6e3d9af84f90a2bb90c1224a0f75da8a16662330f2c7076bffcbae
+    name: adguardhome-sync
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/adguardhome-sync-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.176288+01:00"
+    created: "2023-11-17T16:50:01.980756+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -18,8 +33,23 @@ entries:
     version: 0.2.1
   airsonic-advanced:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:01.98931+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''airsonic-advanced'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//airsonic-advanced'
+    digest: 0dc5acefa50af2f04d67d567a21af15331d73a479e01483279f6891116208aeb
+    name: airsonic-advanced
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/airsonic-advanced-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.178853+01:00"
+    created: "2023-11-17T16:50:01.98586+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -34,8 +64,23 @@ entries:
     version: 0.2.1
   apprise-api:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:01.993959+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''apprise-api'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//apprise-api'
+    digest: 0a6449cc9411b44d399919806b05e93282334eee32c4393705894d2bc33f5bac
+    name: apprise-api
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/apprise-api-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.182667+01:00"
+    created: "2023-11-17T16:50:01.991832+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -50,8 +95,23 @@ entries:
     version: 0.2.1
   audacity:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:01.99795+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''audacity'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//audacity'
+    digest: 986b8be397dcc098140ed69638749f903a643d14cf01011f557717dc33390cd2
+    name: audacity
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/audacity-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.185263+01:00"
+    created: "2023-11-17T16:50:01.995938+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -66,8 +126,23 @@ entries:
     version: 0.2.1
   babybuddy:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.003168+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''babybuddy'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//babybuddy'
+    digest: 15c0f80f6627258470fb5d4437407fb3bc6feb042e05003e5d58d91570efc895
+    name: babybuddy
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/babybuddy-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.187247+01:00"
+    created: "2023-11-17T16:50:02.001088+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -83,9 +158,9 @@ entries:
   base-chart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-16T12:10:43.188857+01:00"
+    created: "2023-11-17T16:50:02.004783+01:00"
     description: A Helm chart for Kubernetes
-    digest: d74f2cbcf3c7b7831a566291822c676fe32b26fcd7b9b3221c35782454c00793
+    digest: 88c8e89c4f1c20954ab63e9810e4bd1f1ae57e89c4aefd1df7cc931e2acd9a92
     maintainers:
     - name: ganniterix
       url: https://github.com/ganniterix
@@ -96,8 +171,23 @@ entries:
     version: 0.4.1
   bazarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.008654+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''bazarr'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//bazarr'
+    digest: f7b1ce3814c23deecf32f039ecdde8a43a37d229e0c04c6573ce95671120b1dc
+    name: bazarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/bazarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.190798+01:00"
+    created: "2023-11-17T16:50:02.00668+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -112,8 +202,23 @@ entries:
     version: 0.2.1
   beets:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.012184+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''beets'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//beets'
+    digest: f8d777cce8cafcf869583b05113f99fc03a3700eca147edabf7958f83d2a7b82
+    name: beets
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/beets-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.192924+01:00"
+    created: "2023-11-17T16:50:02.010474+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -128,8 +233,23 @@ entries:
     version: 0.2.1
   blender:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.015942+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''blender'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//blender'
+    digest: 4a7abedbbfa04cb4be855bd2918a3ac53a8572e528d4f66afcb85c4d763343ef
+    name: blender
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/blender-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.195159+01:00"
+    created: "2023-11-17T16:50:02.014239+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -144,8 +264,23 @@ entries:
     version: 0.2.1
   boinc:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.020767+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''boinc'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//boinc'
+    digest: 88258ee6a43dbc55fb043509bda50a746171e53580db168b77c89527d3fae3b5
+    name: boinc
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/boinc-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.197279+01:00"
+    created: "2023-11-17T16:50:02.018926+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -160,8 +295,23 @@ entries:
     version: 0.2.1
   booksonic-air:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.024582+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''booksonic-air'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//booksonic-air'
+    digest: 87bf33baf38dd650e808bd45c14b1ef59ed17984611ea76f9f47a70748cf1172
+    name: booksonic-air
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/booksonic-air-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.198967+01:00"
+    created: "2023-11-17T16:50:02.022839+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -176,8 +326,23 @@ entries:
     version: 0.2.1
   bookstack:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.032683+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''bookstack'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//bookstack'
+    digest: 1a6759580d13b8524414fd056b69cd3c098970b8d96327c6c68fe25ab568c8d3
+    name: bookstack
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/bookstack-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.200565+01:00"
+    created: "2023-11-17T16:50:02.028978+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -192,8 +357,23 @@ entries:
     version: 0.2.1
   budge:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.049627+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''budge'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//budge'
+    digest: 84a47b9bd5e5055548dcb9f3481726f13102bc9308857b3e3b0fa0e1cd364770
+    name: budge
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/budge-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.202371+01:00"
+    created: "2023-11-17T16:50:02.035323+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -208,8 +388,23 @@ entries:
     version: 0.2.1
   calibre:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.065307+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''calibre'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//calibre'
+    digest: 5e701a1396ba8754eca335b3e0c944b344e33b96f437aacc54d7c5face72c395
+    name: calibre
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/calibre-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.203803+01:00"
+    created: "2023-11-17T16:50:02.062819+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -224,8 +419,23 @@ entries:
     version: 0.2.1
   calibre-web:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.074345+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''calibre-web'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//calibre-web'
+    digest: 39969c7992e17b3f615454ab7eadd8edc82a5f0847f579813a376caf46c2b579
+    name: calibre-web
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/calibre-web-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.205458+01:00"
+    created: "2023-11-17T16:50:02.070872+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -240,8 +450,23 @@ entries:
     version: 0.2.1
   changedetection.io:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.07987+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''changedetection.io'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//changedetection.io'
+    digest: 9048d551007d2b22aa89820b576e1aae3d0e9e496c94afefd83cbaaed0168816
+    name: changedetection.io
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/changedetection.io-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.206959+01:00"
+    created: "2023-11-17T16:50:02.077755+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -256,8 +481,23 @@ entries:
     version: 0.2.1
   chromium:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.083846+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''chromium'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//chromium'
+    digest: d4f009aeba8de53378a5f43340701cf86f57fe5e569313f49e079ee867b2dbd4
+    name: chromium
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/chromium-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.208463+01:00"
+    created: "2023-11-17T16:50:02.081906+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -272,8 +512,23 @@ entries:
     version: 0.2.1
   code-server:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.088733+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''code-server'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//code-server'
+    digest: ef67b271ef2fd9d797513146c27a4e1ddd5d0fa48ceae56a4c6c86ee1d6b3fb3
+    name: code-server
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/code-server-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.210495+01:00"
+    created: "2023-11-17T16:50:02.086274+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -288,8 +543,23 @@ entries:
     version: 0.2.1
   cops:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.093303+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''cops'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//cops'
+    digest: cf98e798d894164a92c7ffd7aae2ceb63ff627bcfb0e04a519a82eb179f8fdad
+    name: cops
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/cops-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.212459+01:00"
+    created: "2023-11-17T16:50:02.091204+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -304,8 +574,23 @@ entries:
     version: 0.2.1
   daapd:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.098103+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''daapd'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//daapd'
+    digest: 7eea25b140c27d5ca7a07c3feed64863e282abe97fa728a6ac32098dcb239805
+    name: daapd
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/daapd-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.214186+01:00"
+    created: "2023-11-17T16:50:02.09593+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -320,8 +605,23 @@ entries:
     version: 0.2.1
   darktable:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.103587+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''darktable'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//darktable'
+    digest: cc55da886645c67bf76e7310fa0334d0d002514236c310eb0113bd859dcf5dc6
+    name: darktable
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/darktable-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.215741+01:00"
+    created: "2023-11-17T16:50:02.100972+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -336,8 +636,23 @@ entries:
     version: 0.2.1
   davos:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.110493+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''davos'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//davos'
+    digest: 210c63ac029f6a64e5a5b5c9e56956b83152929557a8a5e16652fcd223d4181b
+    name: davos
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/davos-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.217569+01:00"
+    created: "2023-11-17T16:50:02.108475+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -352,8 +667,23 @@ entries:
     version: 0.2.1
   ddclient:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.116492+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''ddclient'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//ddclient'
+    digest: be8bdeff62d17d00cffd52bd29905af331e130a971e5c56a3d7118dc8fbd2175
+    name: ddclient
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/ddclient-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.219313+01:00"
+    created: "2023-11-17T16:50:02.113092+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -368,8 +698,23 @@ entries:
     version: 0.2.1
   deluge:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.121284+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''deluge'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//deluge'
+    digest: 7730fa263a13e09a09484014ecc08ae5353c9b6ba3778a39003c5c2295f4c046
+    name: deluge
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/deluge-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.220904+01:00"
+    created: "2023-11-17T16:50:02.119397+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -384,8 +729,23 @@ entries:
     version: 0.2.1
   digikam:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.126482+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''digikam'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//digikam'
+    digest: a7e163c62d4e945df7daf2f5c49fc5e7ec87766fb6eda9ae9a9f51b81dc795eb
+    name: digikam
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/digikam-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.223228+01:00"
+    created: "2023-11-17T16:50:02.124425+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -400,8 +760,23 @@ entries:
     version: 0.2.1
   dillinger:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.131127+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''dillinger'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//dillinger'
+    digest: d6b4127945d4f62abf1bba8cd5ed05c01e8eb24dec6c71f4d445433ab3b1151d
+    name: dillinger
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/dillinger-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.224986+01:00"
+    created: "2023-11-17T16:50:02.129134+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -416,8 +791,23 @@ entries:
     version: 0.2.1
   diskover:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.137152+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''diskover'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//diskover'
+    digest: 10f1e905c2f30994b2d04be34dc5453897aada51fab49be41edb2283693438c9
+    name: diskover
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/diskover-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.227544+01:00"
+    created: "2023-11-17T16:50:02.133357+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -432,8 +822,23 @@ entries:
     version: 0.2.1
   dokuwiki:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.147206+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''dokuwiki'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//dokuwiki'
+    digest: 64fa204c33416b7e2fd8a09c2abc27eedeba751f5a6ccb3f0380bbe59af71634
+    name: dokuwiki
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/dokuwiki-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.230407+01:00"
+    created: "2023-11-17T16:50:02.144503+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -448,8 +853,23 @@ entries:
     version: 0.2.1
   domoticz:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.153029+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''domoticz'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//domoticz'
+    digest: 83fa2b05e40d6f57b3fbe4ec23ce5d0bc234801ee0faa7d0d38b5340ffb4827f
+    name: domoticz
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/domoticz-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.232428+01:00"
+    created: "2023-11-17T16:50:02.15061+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -464,8 +884,23 @@ entries:
     version: 0.2.1
   doplarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.157385+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''doplarr'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//doplarr'
+    digest: 65da237bf3b01670fe353349ba1ecffaaf9f2ff6397e207cfa4369bfb744bab1
+    name: doplarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/doplarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.234223+01:00"
+    created: "2023-11-17T16:50:02.155361+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -480,8 +915,23 @@ entries:
     version: 0.2.1
   doublecommander:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.166228+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''doublecommander'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//doublecommander'
+    digest: 4e92f24ed4c2954e7d75acc3a845548769a48eaa8f2da01e469ebbb5439f3aac
+    name: doublecommander
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/doublecommander-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.235886+01:00"
+    created: "2023-11-17T16:50:02.160627+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -496,8 +946,23 @@ entries:
     version: 0.2.1
   duckdns:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.173525+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''duckdns'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//duckdns'
+    digest: caa739ddca3f4e78a90c9aac347a3a1348e290c4688fa585ec3aa6393de172f3
+    name: duckdns
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/duckdns-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.238528+01:00"
+    created: "2023-11-17T16:50:02.171157+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -512,8 +977,23 @@ entries:
     version: 0.2.1
   duplicati:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.177401+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''duplicati'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//duplicati'
+    digest: 58dc7ef9146439ece27ca90fe72db566ff64c6721e3d929dffd193fc344fe1c5
+    name: duplicati
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/duplicati-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.240642+01:00"
+    created: "2023-11-17T16:50:02.175539+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -528,8 +1008,23 @@ entries:
     version: 0.2.1
   emby:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.180831+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''emby'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//emby'
+    digest: f1cee2c26adf0084158e88c4fa64fae2d2fd56f57e156125656dd9f2532ec0b9
+    name: emby
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/emby-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.242441+01:00"
+    created: "2023-11-17T16:50:02.179154+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -544,8 +1039,23 @@ entries:
     version: 0.2.1
   embystat:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.184347+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''embystat'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//embystat'
+    digest: 2f7174622e21675392ea0bc85298c5271c90e3b70417df3b9e68251ff844e29b
+    name: embystat
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/embystat-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.244582+01:00"
+    created: "2023-11-17T16:50:02.182492+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -560,8 +1070,23 @@ entries:
     version: 0.2.1
   emulatorjs:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.187909+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''emulatorjs'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//emulatorjs'
+    digest: 631acc999da1e77c10a5f9154101f86e257754b1f4b9b93ef869534a1c5b1f26
+    name: emulatorjs
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/emulatorjs-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.247425+01:00"
+    created: "2023-11-17T16:50:02.186022+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -576,8 +1101,23 @@ entries:
     version: 0.2.1
   endlessh:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.192841+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''endlessh'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//endlessh'
+    digest: 042d6126d66fe6e4acc1bee43f44be44df60e0d34e7a769a25e1ee691f8417bf
+    name: endlessh
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/endlessh-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.249599+01:00"
+    created: "2023-11-17T16:50:02.190914+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -590,10 +1130,40 @@ entries:
     urls:
     - https://ekavallieri.github.io/public-helm-charts/endlessh-0.2.1.tgz
     version: 0.2.1
+  example-dev-tools:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-17T16:50:02.194457+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://noygal.github.io/helm/
+      version: 0.2.0
+    description: Example chart - deploying cloud9, codimd and mariadb
+    digest: 8d420e5b810e380cc688929f50ed23f35905c83f5d435bb044506a7e5678a748
+    name: example-dev-tools
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/example-dev-tools-0.2.8.tgz
+    version: 0.2.8
   fail2ban:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.197655+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''fail2ban'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//fail2ban'
+    digest: d707d18636eac3194dbc5041c1114e9c744841f7174dc4dcb4418fa4786d4c8d
+    name: fail2ban
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/fail2ban-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.252633+01:00"
+    created: "2023-11-17T16:50:02.196161+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -608,8 +1178,23 @@ entries:
     version: 0.2.1
   feed2toot:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.20055+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''feed2toot'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//feed2toot'
+    digest: ed966eaf05de6b0c8dc2672a472304d55b4d780d5551b6a2fe2cb697bcf1c1ac
+    name: feed2toot
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/feed2toot-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.254359+01:00"
+    created: "2023-11-17T16:50:02.199178+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -624,8 +1209,23 @@ entries:
     version: 0.2.1
   filezilla:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.203551+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''filezilla'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//filezilla'
+    digest: 4e945db7088df9a1fe4db426e467b93a504f5d4cb4bce577c0d1aec08d2d7dbe
+    name: filezilla
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/filezilla-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.256407+01:00"
+    created: "2023-11-17T16:50:02.202093+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -640,8 +1240,23 @@ entries:
     version: 0.2.1
   firefox:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.207245+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''firefox'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//firefox'
+    digest: 5c9f9d9a40a63e35334aca82f3a4b19f352a622cfee2ac18fb8e4728be90be1f
+    name: firefox
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/firefox-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.258282+01:00"
+    created: "2023-11-17T16:50:02.205846+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -656,8 +1271,23 @@ entries:
     version: 0.2.1
   fleet:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.209958+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''fleet'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//fleet'
+    digest: 72e42d34986771c909407733a4f95fe0e080fdfdcda100a574109470b4060f15
+    name: fleet
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/fleet-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.260632+01:00"
+    created: "2023-11-17T16:50:02.208643+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -672,8 +1302,23 @@ entries:
     version: 0.2.1
   flexget:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.212679+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''flexget'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//flexget'
+    digest: aa058cd54f3446ad3dd904711fe13901fb61364d02f9abb8acd6f50cd0f00165
+    name: flexget
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/flexget-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.263666+01:00"
+    created: "2023-11-17T16:50:02.211451+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -688,8 +1333,23 @@ entries:
     version: 0.2.1
   foldingathome:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.215476+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''foldingathome'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//foldingathome'
+    digest: 5c105a9247e419f7be192acb39c736c0ac6f80828d93ec614c7a84c1812e9f64
+    name: foldingathome
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/foldingathome-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.265494+01:00"
+    created: "2023-11-17T16:50:02.214142+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -704,8 +1364,23 @@ entries:
     version: 0.2.1
   freshrss:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.21979+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''freshrss'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//freshrss'
+    digest: 855fe7d6d1290fecbaa717a50e52947c4c9ab4527c62aad1863051e66a60187d
+    name: freshrss
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/freshrss-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.267302+01:00"
+    created: "2023-11-17T16:50:02.216915+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -720,8 +1395,23 @@ entries:
     version: 0.2.1
   github-desktop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.229612+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''github-desktop'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//github-desktop'
+    digest: b2d1b0bee35ead11b0fea285bf28af36c5ec99b670135a17fa0e9753e06ac7c4
+    name: github-desktop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/github-desktop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.268995+01:00"
+    created: "2023-11-17T16:50:02.227578+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -736,8 +1426,23 @@ entries:
     version: 0.2.1
   gitqlient:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.237054+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''gitqlient'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//gitqlient'
+    digest: 3f3afc37c8453c530550d1ee585be0c002727679852d3a66475224664e06283e
+    name: gitqlient
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/gitqlient-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.271449+01:00"
+    created: "2023-11-17T16:50:02.231856+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -752,8 +1457,23 @@ entries:
     version: 0.2.1
   grav:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.241311+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''grav'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//grav'
+    digest: 781e14636d671721d9f9352a4a2037fffd5d8d696756bf274364c7549432ff4f
+    name: grav
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/grav-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.273264+01:00"
+    created: "2023-11-17T16:50:02.239668+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -768,8 +1488,23 @@ entries:
     version: 0.2.1
   grocy:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.244236+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''grocy'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//grocy'
+    digest: 0b262727b9668157d06d7db32b9a7d12c208a13d8a65f6066a11d27fc4af2529
+    name: grocy
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/grocy-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.274834+01:00"
+    created: "2023-11-17T16:50:02.242734+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -784,8 +1519,23 @@ entries:
     version: 0.2.1
   habridge:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.248027+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''habridge'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//habridge'
+    digest: f1f0d51e1387e612f502272665b49e2d30801b44be6857def11e91fff0e00196
+    name: habridge
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/habridge-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.277783+01:00"
+    created: "2023-11-17T16:50:02.24615+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -800,8 +1550,23 @@ entries:
     version: 0.2.1
   headphones:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.251438+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''headphones'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//headphones'
+    digest: 36a88234f468dec88c1b301aa50f9b538f2f642f7db6b43b8ead6189e155edc1
+    name: headphones
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/headphones-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.283496+01:00"
+    created: "2023-11-17T16:50:02.249708+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -816,8 +1581,23 @@ entries:
     version: 0.2.1
   healthchecks:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.254581+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''healthchecks'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//healthchecks'
+    digest: daa70b12d1c7cdeea42b692a305365b34a27d62102b8fae98f4e10120fd744a0
+    name: healthchecks
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/healthchecks-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.285352+01:00"
+    created: "2023-11-17T16:50:02.253105+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -832,8 +1612,23 @@ entries:
     version: 0.2.1
   hedgedoc:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.258446+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''hedgedoc'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//hedgedoc'
+    digest: 4b8fc21d88bd14b66456edc2c4dbd242c4b3c23674c77b961a785842f3db6c83
+    name: hedgedoc
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/hedgedoc-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.287106+01:00"
+    created: "2023-11-17T16:50:02.25644+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -848,8 +1643,23 @@ entries:
     version: 0.2.1
   heimdall:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.264166+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''heimdall'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//heimdall'
+    digest: ead96bae7f64ebd8a337dabf14f56b0c8f6b8b9045fec3ecb6f91b38c50e6707
+    name: heimdall
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/heimdall-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.289519+01:00"
+    created: "2023-11-17T16:50:02.261708+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -864,8 +1674,23 @@ entries:
     version: 0.2.1
   hishtory-server:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.267242+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''hishtory-server'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//hishtory-server'
+    digest: 5a32ab207c65cfc2b10873ca26139fb544f93b7c5e382f18d8ce2dbbf9aa2705
+    name: hishtory-server
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/hishtory-server-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.291159+01:00"
+    created: "2023-11-17T16:50:02.265745+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -880,8 +1705,23 @@ entries:
     version: 0.2.1
   homeassistant:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.270419+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''homeassistant'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//homeassistant'
+    digest: 552903cf973b3accbaa79e2255dec85b082b442778812c7a7b29a0e7afb68cba
+    name: homeassistant
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/homeassistant-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.293679+01:00"
+    created: "2023-11-17T16:50:02.268901+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -896,8 +1736,23 @@ entries:
     version: 0.2.1
   htpcmanager:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.273556+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''htpcmanager'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//htpcmanager'
+    digest: cac2e1c35e33f627b7e516ae507c4f78d36a741d8d5b1ecb7d55100264b19ae5
+    name: htpcmanager
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/htpcmanager-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.303171+01:00"
+    created: "2023-11-17T16:50:02.271906+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -912,8 +1767,23 @@ entries:
     version: 0.2.1
   jackett:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.276651+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''jackett'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//jackett'
+    digest: 19d224513d92dc73b8643989e3d1b1de30227940421d74152f59047b321949d8
+    name: jackett
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/jackett-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.305088+01:00"
+    created: "2023-11-17T16:50:02.275234+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -928,8 +1798,23 @@ entries:
     version: 0.2.1
   jellyfin:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.27987+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''jellyfin'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//jellyfin'
+    digest: 1217fce3acd82d2abbcceb2edc12698279a0453711c9298f07e831ede0a76dce
+    name: jellyfin
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/jellyfin-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.306767+01:00"
+    created: "2023-11-17T16:50:02.278541+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -944,8 +1829,23 @@ entries:
     version: 0.2.1
   kasm:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.282606+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''kasm'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//kasm'
+    digest: 76cf79189e579ddb825719798addb55c304f59f334849056b7b028ed3ad6c914
+    name: kasm
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/kasm-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.308274+01:00"
+    created: "2023-11-17T16:50:02.281233+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -960,8 +1860,23 @@ entries:
     version: 0.2.1
   kavita:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.28507+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''kavita'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//kavita'
+    digest: 2d8fe02dde8735ee9f5a32f4fbadd44fc29b145460610a5c4baf14bf5bcc40e0
+    name: kavita
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/kavita-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.310116+01:00"
+    created: "2023-11-17T16:50:02.283793+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -976,8 +1891,23 @@ entries:
     version: 0.2.1
   kdenlive:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.287735+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''kdenlive'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//kdenlive'
+    digest: 98e03c12d11615cc511c611e7377531830fda96f20926d330bde1b8039087fc9
+    name: kdenlive
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/kdenlive-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.312962+01:00"
+    created: "2023-11-17T16:50:02.286447+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -992,8 +1922,23 @@ entries:
     version: 0.2.1
   kimai:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.290467+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''kimai'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//kimai'
+    digest: 98c9cb180e015a995908093ae247badc1eeca4200b1ea0a6c747680cd48c9976
+    name: kimai
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/kimai-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.314943+01:00"
+    created: "2023-11-17T16:50:02.288902+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1008,8 +1953,23 @@ entries:
     version: 0.2.1
   lazylibrarian:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.293078+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''lazylibrarian'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//lazylibrarian'
+    digest: 1d1baee01607c8ccd757c62f729a3a536f84f85388603843b745018a9c924b5c
+    name: lazylibrarian
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/lazylibrarian-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.316557+01:00"
+    created: "2023-11-17T16:50:02.291704+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1024,8 +1984,23 @@ entries:
     version: 0.2.1
   ldap-auth:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.29559+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''ldap-auth'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//ldap-auth'
+    digest: b03510407edd679ab8860249a036d1e9f165096189d839c45bf1e09f480353cf
+    name: ldap-auth
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/ldap-auth-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.318733+01:00"
+    created: "2023-11-17T16:50:02.294359+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1040,8 +2015,23 @@ entries:
     version: 0.2.1
   libreoffice:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.298227+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''libreoffice'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//libreoffice'
+    digest: 6c0d5e1b89876f02ad1a6e8ad3f11500e1918d004c3ba802d753eb11b6b32c47
+    name: libreoffice
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/libreoffice-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.320505+01:00"
+    created: "2023-11-17T16:50:02.297002+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1056,8 +2046,23 @@ entries:
     version: 0.2.1
   librespeed:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.30427+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''librespeed'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//librespeed'
+    digest: 76507efbf0e1fab51636c593198654a4021c1334c744ccd05b6de16bb47f0db1
+    name: librespeed
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/librespeed-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.322426+01:00"
+    created: "2023-11-17T16:50:02.302976+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1072,8 +2077,23 @@ entries:
     version: 0.2.1
   lidarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.30727+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''lidarr'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//lidarr'
+    digest: a107c336c9c96c96b00bedbfbcd2d560186cdda2802a43dfbd3bcf4a4eef1d39
+    name: lidarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/lidarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.324284+01:00"
+    created: "2023-11-17T16:50:02.305583+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1088,8 +2108,23 @@ entries:
     version: 0.2.1
   limnoria:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.309728+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''limnoria'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//limnoria'
+    digest: c5891441d89da8cc80178f3d55186ffeb014c177676f58ed6d65b56366db74a0
+    name: limnoria
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/limnoria-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.325923+01:00"
+    created: "2023-11-17T16:50:02.308522+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1104,8 +2139,23 @@ entries:
     version: 0.2.1
   lollypop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.312317+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''lollypop'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//lollypop'
+    digest: a7174b563816e745c38d189c9bc20df18138c29cece21399f8247dc663483b7c
+    name: lollypop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/lollypop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.327681+01:00"
+    created: "2023-11-17T16:50:02.311061+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1120,8 +2170,23 @@ entries:
     version: 0.2.1
   lychee:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.314724+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''lychee'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//lychee'
+    digest: 7bd8eaa8ad07359ba8f0326771e973006e953d9a16881ffba9736da73d80703e
+    name: lychee
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/lychee-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.329475+01:00"
+    created: "2023-11-17T16:50:02.313522+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1136,8 +2201,23 @@ entries:
     version: 0.2.1
   mariadb:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.317175+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''mariadb'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//mariadb'
+    digest: 68c1fd413ad27df7151e06bdda6152308abd0ec4d20fd970df8c3c4969eba7b8
+    name: mariadb
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/mariadb-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.331766+01:00"
+    created: "2023-11-17T16:50:02.316022+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1152,8 +2232,23 @@ entries:
     version: 0.2.1
   mastodon:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.319947+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''mastodon'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//mastodon'
+    digest: 7ea7026680b1eaf0bcfabcff7b8e63c4f5f782516e9b09f861d515c74f862d07
+    name: mastodon
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/mastodon-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.333773+01:00"
+    created: "2023-11-17T16:50:02.318744+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1168,8 +2263,23 @@ entries:
     version: 0.2.1
   medusa:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.322267+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''medusa'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//medusa'
+    digest: 56df8578a629ac28c3cc13c120843f441a7ca06728ebc62adbffdec2889dbcf5
+    name: medusa
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/medusa-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.335879+01:00"
+    created: "2023-11-17T16:50:02.321135+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1184,8 +2294,23 @@ entries:
     version: 0.2.1
   minetest:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.324464+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''minetest'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//minetest'
+    digest: c8ab2a749858177cae44248e2ad3443e2077488dfcb2b4c53bb039efadde1b95
+    name: minetest
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/minetest-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.337618+01:00"
+    created: "2023-11-17T16:50:02.323394+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1200,8 +2325,23 @@ entries:
     version: 0.2.1
   minisatip:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.326861+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''minisatip'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//minisatip'
+    digest: a7cc0b58fb68ed845819c206bd9eb160383bc248034d1d358465c5e4ecb56752
+    name: minisatip
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/minisatip-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.340839+01:00"
+    created: "2023-11-17T16:50:02.325654+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1216,8 +2356,23 @@ entries:
     version: 0.2.1
   mstream:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.329436+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''mstream'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//mstream'
+    digest: 56f3a3ef58f1c0f2632f8e07db82a98232ea2b67afa47a1af594db36561a7892
+    name: mstream
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/mstream-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.342763+01:00"
+    created: "2023-11-17T16:50:02.328063+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1232,8 +2387,23 @@ entries:
     version: 0.2.1
   mullvad-browser:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.337365+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''mullvad-browser'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//mullvad-browser'
+    digest: 03c9339e28d67cdfc46476a9f7fedec563b8948ca2b85a62e77106210a3c8ed9
+    name: mullvad-browser
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/mullvad-browser-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.344751+01:00"
+    created: "2023-11-17T16:50:02.331445+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1248,8 +2418,23 @@ entries:
     version: 0.2.1
   mylar3:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.340521+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''mylar3'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//mylar3'
+    digest: fddd61b22d193899060c53a4df19f8dcac24b2149f4fc97d9817d8c7b87aa8f5
+    name: mylar3
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/mylar3-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.347808+01:00"
+    created: "2023-11-17T16:50:02.339264+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1264,8 +2449,23 @@ entries:
     version: 0.2.1
   mysql-workbench:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.342833+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''mysql-workbench'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//mysql-workbench'
+    digest: 253a17439fc32695c87eef0244ac8dc150f605575d72eb9870731aa281fdd7ec
+    name: mysql-workbench
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/mysql-workbench-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.349445+01:00"
+    created: "2023-11-17T16:50:02.3417+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1280,8 +2480,23 @@ entries:
     version: 0.2.1
   nano:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.34517+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''nano'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//nano'
+    digest: 4092509999c0a5bf6847d02fe599c8587077d23fbf2be32e10face85558561d3
+    name: nano
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/nano-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.351054+01:00"
+    created: "2023-11-17T16:50:02.344084+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1296,8 +2511,23 @@ entries:
     version: 0.2.1
   nano-wallet:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.347864+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''nano-wallet'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//nano-wallet'
+    digest: 38d2dc73c3b7aa10d373a72ed2c0f3d525ffcf1e934cba2907931efcf3981b9d
+    name: nano-wallet
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/nano-wallet-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.352611+01:00"
+    created: "2023-11-17T16:50:02.346304+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1312,8 +2542,23 @@ entries:
     version: 0.2.1
   netbootxyz:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.35051+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''netbootxyz'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//netbootxyz'
+    digest: 64167f84cae111f61030e917361ad96446d34713c9088a3e74caa7bee89feac8
+    name: netbootxyz
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/netbootxyz-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.354378+01:00"
+    created: "2023-11-17T16:50:02.349107+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1328,8 +2573,23 @@ entries:
     version: 0.2.1
   netbox:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.353192+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''netbox'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//netbox'
+    digest: f2dcfbd420b736623bd42beff41e517590ee3ce40f0392de48c87dcb7534db4a
+    name: netbox
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/netbox-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.356096+01:00"
+    created: "2023-11-17T16:50:02.351994+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1344,8 +2604,23 @@ entries:
     version: 0.2.1
   nextcloud:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.355381+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''nextcloud'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//nextcloud'
+    digest: f573cae78b279db07d39db925f97b19c55cf0175d7fab25fcc0e6334bf8fbf95
+    name: nextcloud
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/nextcloud-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.357699+01:00"
+    created: "2023-11-17T16:50:02.354283+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1360,8 +2635,23 @@ entries:
     version: 0.2.1
   nginx:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.357658+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''nginx'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//nginx'
+    digest: d597fde571c4ad2f5d35650065046a84c617e39bf5566c1e6b87110af185f783
+    name: nginx
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/nginx-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.359357+01:00"
+    created: "2023-11-17T16:50:02.356562+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1376,8 +2666,23 @@ entries:
     version: 0.2.1
   ngircd:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.366445+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''ngircd'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//ngircd'
+    digest: ae9a1ae0a93b6ef65ef54a1ed671a76ee82f7d5e77e65cb23f285faa2660d724
+    name: ngircd
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/ngircd-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.361567+01:00"
+    created: "2023-11-17T16:50:02.364018+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1392,8 +2697,23 @@ entries:
     version: 0.2.1
   nzbhydra2:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.368858+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''nzbhydra2'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//nzbhydra2'
+    digest: e157a0bd3f495a5615556d1d50b249c50c3261af7efcace683805a0de1345709
+    name: nzbhydra2
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/nzbhydra2-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.363538+01:00"
+    created: "2023-11-17T16:50:02.367707+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1408,8 +2728,23 @@ entries:
     version: 0.2.1
   ombi:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.371048+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''ombi'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//ombi'
+    digest: dd4bc7e10e7bb1568be8455b7e68e05a541e6f3ca5a322708a95146238ff87f1
+    name: ombi
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/ombi-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.365634+01:00"
+    created: "2023-11-17T16:50:02.369972+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1424,8 +2759,23 @@ entries:
     version: 0.2.1
   openssh-server:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.373305+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''openssh-server'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//openssh-server'
+    digest: 0c30ead17e110fca11d2858b3bcbec30cc4c7cddb37d8aafd3840d8240760543
+    name: openssh-server
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/openssh-server-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.367062+01:00"
+    created: "2023-11-17T16:50:02.372199+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1440,8 +2790,23 @@ entries:
     version: 0.2.1
   openvscode-server:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.375728+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''openvscode-server'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//openvscode-server'
+    digest: 2fc1fcffb78d689a38dabecabba457168577ec3e8e14e4f5ff2ba81490e0025d
+    name: openvscode-server
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/openvscode-server-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.368587+01:00"
+    created: "2023-11-17T16:50:02.374503+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1456,8 +2821,23 @@ entries:
     version: 0.2.1
   opera:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.378654+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''opera'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//opera'
+    digest: 9b45546804bc1a349db019e36553327943d976acf66733396484bf98e135ad0f
+    name: opera
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/opera-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.370136+01:00"
+    created: "2023-11-17T16:50:02.377089+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1472,8 +2852,23 @@ entries:
     version: 0.2.1
   oscam:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.380737+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''oscam'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//oscam'
+    digest: 9dd03fc3e064e46ed33d68a3ef4b3810fea65060e927e910a1d8f9662f8d9fd3
+    name: oscam
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/oscam-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.372658+01:00"
+    created: "2023-11-17T16:50:02.379696+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1488,8 +2883,23 @@ entries:
     version: 0.2.1
   overseerr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.387552+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''overseerr'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//overseerr'
+    digest: 6bc19ea1309cd2308b3b92ba719010c92353e4fa370a11c9603cd0d62624cde5
+    name: overseerr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/overseerr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.374377+01:00"
+    created: "2023-11-17T16:50:02.382897+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1504,8 +2914,23 @@ entries:
     version: 0.2.1
   pairdrop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.390788+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''pairdrop'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//pairdrop'
+    digest: 39a3c08a45fa1d9b192f10051c75ddf28b938de34e3cf2e6a2df34a9b95b22c1
+    name: pairdrop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/pairdrop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.376516+01:00"
+    created: "2023-11-17T16:50:02.389606+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1520,8 +2945,23 @@ entries:
     version: 0.2.1
   phpmyadmin:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.393353+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''phpmyadmin'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//phpmyadmin'
+    digest: ad9aadd20e2da6f1715ce70f8bd22bf2927ae460cbf7472a003421c14631aebd
+    name: phpmyadmin
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/phpmyadmin-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.378787+01:00"
+    created: "2023-11-17T16:50:02.392058+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1536,8 +2976,23 @@ entries:
     version: 0.2.1
   pidgin:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.395928+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''pidgin'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//pidgin'
+    digest: 0a2fc46f8eec99a45cb9686686bc9be72db19d9146de3dcbb854b96111fed740
+    name: pidgin
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/pidgin-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.381869+01:00"
+    created: "2023-11-17T16:50:02.394694+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1552,8 +3007,23 @@ entries:
     version: 0.2.1
   piwigo:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.398532+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''piwigo'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//piwigo'
+    digest: 87a39e1b844d78c570aec6945d411ba03123569f98ede11a3d7f87335acbfb3e
+    name: piwigo
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/piwigo-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.383715+01:00"
+    created: "2023-11-17T16:50:02.397258+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1568,8 +3038,23 @@ entries:
     version: 0.2.1
   plex:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.400772+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''plex'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//plex'
+    digest: 25441e96a85a5a71b4a93c376c991592e401f157fc68729fdb0441cf40218f19
+    name: plex
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/plex-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.385351+01:00"
+    created: "2023-11-17T16:50:02.399673+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1584,8 +3069,23 @@ entries:
     version: 0.2.1
   plex-meta-manager:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.403102+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''plex-meta-manager'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//plex-meta-manager'
+    digest: dc89076b014180c8c84f3440097ecb36a1d91d08b0d3d3cd141bf9b41f47ebfc
+    name: plex-meta-manager
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/plex-meta-manager-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.387029+01:00"
+    created: "2023-11-17T16:50:02.401954+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1600,8 +3100,23 @@ entries:
     version: 0.2.1
   projectsend:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.405535+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''projectsend'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//projectsend'
+    digest: d0c190f6c6fd52076790949c1011dbc3b0d83ba426bb5273a6cd90b240df2cdb
+    name: projectsend
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/projectsend-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.388829+01:00"
+    created: "2023-11-17T16:50:02.404288+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1616,8 +3131,23 @@ entries:
     version: 0.2.1
   prowlarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.408579+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''prowlarr'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//prowlarr'
+    digest: a2cd74d4789193f715a7bc39b6c0fff07026a0caf7fa307a9b024ca8e330f453
+    name: prowlarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/prowlarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.390367+01:00"
+    created: "2023-11-17T16:50:02.407273+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1632,8 +3162,23 @@ entries:
     version: 0.2.1
   pwndrop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.410963+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''pwndrop'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//pwndrop'
+    digest: 2d9ace52fe12ad37b8c9be080422c25e829a7cd1579eb964eaedcd06f07764bd
+    name: pwndrop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/pwndrop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.392451+01:00"
+    created: "2023-11-17T16:50:02.409806+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1648,8 +3193,23 @@ entries:
     version: 0.2.1
   pydio-cells:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.41332+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''pydio-cells'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//pydio-cells'
+    digest: 743c8a9ca01ee58d4e96df21aa700186cd047b89d353b1a0c941cd8b0c5cc358
+    name: pydio-cells
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/pydio-cells-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.394075+01:00"
+    created: "2023-11-17T16:50:02.412169+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1664,8 +3224,23 @@ entries:
     version: 0.2.1
   pyload-ng:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.415494+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''pyload-ng'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//pyload-ng'
+    digest: a437bd426b9f57038b54abc424383ac540cb89e2a33fbdf65f2ffa6876b8d4a7
+    name: pyload-ng
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/pyload-ng-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.397127+01:00"
+    created: "2023-11-17T16:50:02.414369+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1680,8 +3255,23 @@ entries:
     version: 0.2.1
   pylon:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.418219+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''pylon'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//pylon'
+    digest: 12d7dbccf4eafef82a7e8aece4a8d5038dc0315c3ed94b132d6dedc40d1e3012
+    name: pylon
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/pylon-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.399483+01:00"
+    created: "2023-11-17T16:50:02.416631+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1696,8 +3286,23 @@ entries:
     version: 0.2.1
   qbittorrent:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.423923+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''qbittorrent'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//qbittorrent'
+    digest: 029693746b74077950b7f30f27a4979c7364eb0df49ea2f2afb6bc0883a23606
+    name: qbittorrent
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/qbittorrent-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.401158+01:00"
+    created: "2023-11-17T16:50:02.421923+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1712,8 +3317,23 @@ entries:
     version: 0.2.1
   qdirstat:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.427093+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''qdirstat'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//qdirstat'
+    digest: 3bf85a7c7f00a066ff3ef13e8cc054e77f8a32d80cf12f463b1410373abe68f3
+    name: qdirstat
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/qdirstat-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.402647+01:00"
+    created: "2023-11-17T16:50:02.425751+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1728,8 +3348,23 @@ entries:
     version: 0.2.1
   quassel-core:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.429475+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''quassel-core'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//quassel-core'
+    digest: dacf34eca9f5fc509630fa8658ef5d8accb1c9a13015bad5d7c14241f3c90696
+    name: quassel-core
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/quassel-core-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.405178+01:00"
+    created: "2023-11-17T16:50:02.428339+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1744,8 +3379,23 @@ entries:
     version: 0.2.1
   quassel-web:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.431999+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''quassel-web'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//quassel-web'
+    digest: 20aedcb480b98dbc54f25804dc28ee5d97a6493e666123a7064b1d4f1fcf671c
+    name: quassel-web
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/quassel-web-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.406791+01:00"
+    created: "2023-11-17T16:50:02.430727+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1760,8 +3410,23 @@ entries:
     version: 0.2.1
   radarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.434901+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''radarr'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//radarr'
+    digest: 5b6e89dc0b3f402398f65b3f7317c55513232d4dfd1cfcbf961446600b36aa41
+    name: radarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/radarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.40842+01:00"
+    created: "2023-11-17T16:50:02.433753+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1776,8 +3441,23 @@ entries:
     version: 0.2.1
   raneto:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.437441+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''raneto'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//raneto'
+    digest: 9c1b8e179991ed03041aacdd03a415d838afc010b421b9bedf752d6ee9fc6d57
+    name: raneto
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/raneto-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.41039+01:00"
+    created: "2023-11-17T16:50:02.436087+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1792,8 +3472,23 @@ entries:
     version: 0.2.1
   rdesktop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.439943+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''rdesktop'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//rdesktop'
+    digest: 7da0c41a0df43ef87c71817bb64c65855ed5ca5cd2fe4f8de12a4e02e7e1cd58
+    name: rdesktop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/rdesktop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.41239+01:00"
+    created: "2023-11-17T16:50:02.438634+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1808,8 +3503,23 @@ entries:
     version: 0.2.1
   readarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.442483+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''readarr'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//readarr'
+    digest: fd299c2d9aa0eb0af81b37ef7e759fc800afead6d843e8471237e1116d8c0ec9
+    name: readarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/readarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.415152+01:00"
+    created: "2023-11-17T16:50:02.441185+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1824,8 +3534,23 @@ entries:
     version: 0.2.1
   remmina:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.445154+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''remmina'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//remmina'
+    digest: f1adabb40c69fb010684e6b419dde89eac246c9d58b8b8f18eb74126639f15a4
+    name: remmina
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/remmina-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.416853+01:00"
+    created: "2023-11-17T16:50:02.443748+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1840,8 +3565,23 @@ entries:
     version: 0.2.1
   resilio-sync:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.447598+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''resilio-sync'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//resilio-sync'
+    digest: f767e87be802d1ae6f25ebcc2ab0da0a620f31e8fa9ddfd0456cbbda2e4949ad
+    name: resilio-sync
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/resilio-sync-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.418695+01:00"
+    created: "2023-11-17T16:50:02.44647+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1856,8 +3596,23 @@ entries:
     version: 0.2.1
   rsnapshot:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.449625+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''rsnapshot'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//rsnapshot'
+    digest: 7859df581305aa60c0105264d00434e1d406107e801f2da509d4bdc46a53e9c3
+    name: rsnapshot
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/rsnapshot-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.420396+01:00"
+    created: "2023-11-17T16:50:02.448631+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1872,8 +3627,23 @@ entries:
     version: 0.2.1
   sabnzbd:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.45196+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''sabnzbd'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//sabnzbd'
+    digest: 70e84f50259b06fd68d78e539068d5400c84aaa10e831d5f642422c9e721ba73
+    name: sabnzbd
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/sabnzbd-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.422253+01:00"
+    created: "2023-11-17T16:50:02.450791+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1888,8 +3658,23 @@ entries:
     version: 0.2.1
   series-troxide:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.457009+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''series-troxide'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//series-troxide'
+    digest: 87fdf37d445171178c8f464451d4bbf55b3426ef6655b383b8328450d205f4ac
+    name: series-troxide
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/series-troxide-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.423823+01:00"
+    created: "2023-11-17T16:50:02.454684+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1904,8 +3689,23 @@ entries:
     version: 0.2.1
   sickchill:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.460764+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''sickchill'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//sickchill'
+    digest: 7ddd0df9439f6b8c0652fbbca4dad1b570ecfc80141874b4bfb59da5bd8c8f33
+    name: sickchill
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/sickchill-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.425695+01:00"
+    created: "2023-11-17T16:50:02.459029+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1920,8 +3720,23 @@ entries:
     version: 0.2.1
   sickgear:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.463401+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''sickgear'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//sickgear'
+    digest: c9b1830f5df43eeddb6230c327d405d00c31a2673f81e56abd17c0e7c93d85af
+    name: sickgear
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/sickgear-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.427712+01:00"
+    created: "2023-11-17T16:50:02.462154+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1936,8 +3751,23 @@ entries:
     version: 0.2.1
   smokeping:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.465895+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''smokeping'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//smokeping'
+    digest: 4b0c45c57173d0d44529de5b37476636ae039658646c8fb5f17d36c02df13a65
+    name: smokeping
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/smokeping-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.429924+01:00"
+    created: "2023-11-17T16:50:02.464653+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1952,8 +3782,23 @@ entries:
     version: 0.2.1
   snapdrop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.468119+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''snapdrop'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//snapdrop'
+    digest: be34461811062cb69326b2aa51474438b358105a7c3f8fad0b4dfc439b2f1c9d
+    name: snapdrop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/snapdrop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.431547+01:00"
+    created: "2023-11-17T16:50:02.46701+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1968,8 +3813,23 @@ entries:
     version: 0.2.1
   snipe-it:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.470804+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''snipe-it'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//snipe-it'
+    digest: 27f025b716f5feaab705fcdd1846ed5f708d6bcfcc8fbb7ce3c02ee902ff2aa1
+    name: snipe-it
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/snipe-it-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.433204+01:00"
+    created: "2023-11-17T16:50:02.469401+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -1984,8 +3844,23 @@ entries:
     version: 0.2.1
   sonarr:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.473715+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''sonarr'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//sonarr'
+    digest: 0544dc6ba3d4cc51621286b2d206261f20647fc0249a8e2371931316a9e5c6dd
+    name: sonarr
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/sonarr-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.434725+01:00"
+    created: "2023-11-17T16:50:02.472133+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2000,8 +3875,23 @@ entries:
     version: 0.2.1
   sqlitebrowser:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.476356+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''sqlitebrowser'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//sqlitebrowser'
+    digest: 574e6a9d6ad85c063a79d4692c56a005c0843b0c38743f758acbc76eb1a6287a
+    name: sqlitebrowser
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/sqlitebrowser-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.436357+01:00"
+    created: "2023-11-17T16:50:02.475028+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2016,8 +3906,23 @@ entries:
     version: 0.2.1
   steamos:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.479149+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''steamos'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//steamos'
+    digest: 7ffc31cddd6bf2b1f1250232866b61c8d1ab7330f548567982b8612ab2665738
+    name: steamos
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/steamos-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.43809+01:00"
+    created: "2023-11-17T16:50:02.477799+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2032,8 +3937,23 @@ entries:
     version: 0.2.1
   swag:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.481763+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''swag'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//swag'
+    digest: a62acd0803be0cfb236b344228ee249875cb16389d7ef4fb496a05e36e8b4993
+    name: swag
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/swag-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.439842+01:00"
+    created: "2023-11-17T16:50:02.480387+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2048,8 +3968,23 @@ entries:
     version: 0.2.1
   synclounge:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.484105+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''synclounge'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//synclounge'
+    digest: 860a17585f0af6a6c9918c3398931ba32473a6f50ec335e60741b7f862c3c5f7
+    name: synclounge
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/synclounge-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.441396+01:00"
+    created: "2023-11-17T16:50:02.482893+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2064,8 +3999,23 @@ entries:
     version: 0.2.1
   syncthing:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.48703+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''syncthing'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//syncthing'
+    digest: cb2440f6c70512de6658434153612f09ae94c2680cf509b6d8cd9081aab50965
+    name: syncthing
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/syncthing-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.443039+01:00"
+    created: "2023-11-17T16:50:02.485342+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2080,8 +4030,23 @@ entries:
     version: 0.2.1
   syslog-ng:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.489181+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''syslog-ng'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//syslog-ng'
+    digest: e0c89cfe7bbf519cad8321b6e8cc7d9fc03a184f9b7e1e3fe8f196183826f338
+    name: syslog-ng
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/syslog-ng-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.444913+01:00"
+    created: "2023-11-17T16:50:02.488132+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2096,8 +4061,23 @@ entries:
     version: 0.2.1
   tautulli:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.491424+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''tautulli'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//tautulli'
+    digest: f24421fa716bd21cd7b98885fc522998a8e69d6dc006acae8f5f2e8c99b5d533
+    name: tautulli
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/tautulli-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.447269+01:00"
+    created: "2023-11-17T16:50:02.490333+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2112,8 +4092,23 @@ entries:
     version: 0.2.1
   thelounge:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.493871+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''thelounge'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//thelounge'
+    digest: 245320eb983328f10924629c34b49d5e11ab8ef9b001994274881a68e2b354d0
+    name: thelounge
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/thelounge-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.448917+01:00"
+    created: "2023-11-17T16:50:02.492694+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2128,8 +4123,23 @@ entries:
     version: 0.2.1
   transmission:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.496249+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''transmission'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//transmission'
+    digest: 371df34f37fed59518b2d35ef0b600d2c1a6a7aac8c17ea41cbed0b622278380
+    name: transmission
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/transmission-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.450498+01:00"
+    created: "2023-11-17T16:50:02.495041+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2144,8 +4154,23 @@ entries:
     version: 0.2.1
   tvheadend:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.49871+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''tvheadend'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//tvheadend'
+    digest: f9d8e16e119751520bc26d6a7b1af01d604d83607edb195529835aea26c1e232
+    name: tvheadend
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/tvheadend-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.451982+01:00"
+    created: "2023-11-17T16:50:02.497593+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2160,8 +4185,23 @@ entries:
     version: 0.2.1
   ubooquity:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.503715+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''ubooquity'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//ubooquity'
+    digest: 2dd6234a5f15f2ee3838c6ca101e1c71c9366709b4bb4adbf5866d83b7ef876c
+    name: ubooquity
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/ubooquity-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.453372+01:00"
+    created: "2023-11-17T16:50:02.501517+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2176,8 +4216,23 @@ entries:
     version: 0.2.1
   unifi-controller:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.506211+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''unifi-controller'' service, please refer
+      to the documentation at: https://ekavallieri.github.io/public-helm-charts//unifi-controller'
+    digest: c475f035a6325ad32b2d408f5bc6026a7fed140c1656e3f7572d323e2e88f2e2
+    name: unifi-controller
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/unifi-controller-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.455578+01:00"
+    created: "2023-11-17T16:50:02.50501+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2192,8 +4247,23 @@ entries:
     version: 0.2.1
   unifi-network-application:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.508786+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''unifi-network-application'' service, please
+      refer to the documentation at: https://ekavallieri.github.io/public-helm-charts//unifi-network-application'
+    digest: d1e5fd2b1a1f07e2de63eeb7cdb40bc6acd0b12970d52c3512ad38b248046560
+    name: unifi-network-application
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/unifi-network-application-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.457286+01:00"
+    created: "2023-11-17T16:50:02.507486+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2208,8 +4278,23 @@ entries:
     version: 0.2.1
   vscodium:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.511483+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''vscodium'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//vscodium'
+    digest: d9706020a1f387fd2bbe64f7eb5a8d62293e938384181da301c80f9209b7175d
+    name: vscodium
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/vscodium-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.458963+01:00"
+    created: "2023-11-17T16:50:02.509878+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2224,8 +4309,23 @@ entries:
     version: 0.2.1
   webcord:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.513847+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''webcord'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//webcord'
+    digest: e55422e0f6e6a2870b35ccaaef329a6b568cd62f65120b2c94d709c1570d71a2
+    name: webcord
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/webcord-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.460437+01:00"
+    created: "2023-11-17T16:50:02.51269+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2240,8 +4340,23 @@ entries:
     version: 0.2.1
   webgrabplus:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.51607+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''webgrabplus'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//webgrabplus'
+    digest: f7f4f2166bdbd297678b274e9f81f81a1691cb6ee292058ab403ffde0e0675f1
+    name: webgrabplus
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/webgrabplus-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.46241+01:00"
+    created: "2023-11-17T16:50:02.515009+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2256,8 +4371,23 @@ entries:
     version: 0.2.1
   webtop:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.518648+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''webtop'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//webtop'
+    digest: 2550f8748525c327fa3ce8316f57daf512e3bd58794963c61a34c367f0007364
+    name: webtop
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/webtop-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.465413+01:00"
+    created: "2023-11-17T16:50:02.517384+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2272,8 +4402,23 @@ entries:
     version: 0.2.1
   wikijs:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.521179+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''wikijs'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//wikijs'
+    digest: aae87b427c70002f44172a2e8306b8c01b19e503a561bc0c9feb7f385ee72542
+    name: wikijs
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/wikijs-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.467399+01:00"
+    created: "2023-11-17T16:50:02.519916+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2288,8 +4433,23 @@ entries:
     version: 0.2.1
   wireguard:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.52396+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''wireguard'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//wireguard'
+    digest: 4669fdff407dfe8ec562ed1646378efd6ebf046eec805068f1ecd459860f75d1
+    name: wireguard
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/wireguard-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.469327+01:00"
+    created: "2023-11-17T16:50:02.522401+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2304,8 +4464,23 @@ entries:
     version: 0.2.1
   wireshark:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.526348+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''wireshark'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//wireshark'
+    digest: e325f6e64a27869e49ea091bbf87a224376fb1776fe0892aaaf9f591abd35097
+    name: wireshark
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/wireshark-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.471419+01:00"
+    created: "2023-11-17T16:50:02.525109+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2320,8 +4495,23 @@ entries:
     version: 0.2.1
   wps-office:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.528963+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''wps-office'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//wps-office'
+    digest: c5a7deb76d5fb0c6d92475d0da0c0fbd9e02b51e35af00555d6802efdfaf4fbd
+    name: wps-office
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/wps-office-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.473402+01:00"
+    created: "2023-11-17T16:50:02.527747+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2336,8 +4526,23 @@ entries:
     version: 0.2.1
   xbackbone:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.531191+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''xbackbone'' service, please refer to the
+      documentation at: https://ekavallieri.github.io/public-helm-charts//xbackbone'
+    digest: c01e3693aab04d0801b14c2ddbb68784951e44d79ab57d66f0a716857e26ff2c
+    name: xbackbone
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/xbackbone-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.475181+01:00"
+    created: "2023-11-17T16:50:02.530119+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2352,8 +4557,23 @@ entries:
     version: 0.2.1
   your_spotify:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.533485+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''your_spotify'' service, please refer to
+      the documentation at: https://ekavallieri.github.io/public-helm-charts//your_spotify'
+    digest: 1c29843ac85d5bd7d231c84e81ce9d379bc0b57a7f486e983bb536cc0b3102ac
+    name: your_spotify
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/your_spotify-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.479733+01:00"
+    created: "2023-11-17T16:50:02.532307+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2368,8 +4588,23 @@ entries:
     version: 0.2.1
   yq:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.537464+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''yq'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//yq'
+    digest: 3af63eccb2697dc5f74f03ad7186b112c3784d536fd8e2d44a93119889d29055
+    name: yq
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/yq-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.482563+01:00"
+    created: "2023-11-17T16:50:02.534516+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2384,8 +4619,23 @@ entries:
     version: 0.2.1
   znc:
   - apiVersion: v2
+    appVersion: 0.2.2
+    created: "2023-11-17T16:50:02.542622+01:00"
+    dependencies:
+    - name: base-chart
+      repository: https://ekavallieri.github.io/public-helm-charts/
+      version: 0.4.1
+    description: 'This chart deploys the ''znc'' service, please refer to the documentation
+      at: https://ekavallieri.github.io/public-helm-charts//znc'
+    digest: 6427aa9cfa8341813a5b62a470dbc9ad601a10a28a74592e95acf39c2c391b08
+    name: znc
+    type: application
+    urls:
+    - https://ekavallieri.github.io/public-helm-charts/znc-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
     appVersion: 0.2.1
-    created: "2023-11-16T12:10:43.484446+01:00"
+    created: "2023-11-17T16:50:02.540258+01:00"
     dependencies:
     - name: base-chart
       repository: https://ekavallieri.github.io/public-helm-charts/
@@ -2398,4 +4648,4 @@ entries:
     urls:
     - https://ekavallieri.github.io/public-helm-charts/znc-0.2.1.tgz
     version: 0.2.1
-generated: "2023-11-16T12:10:43.174469+01:00"
+generated: "2023-11-17T16:50:01.97792+01:00"
