@@ -1,9 +1,13 @@
 # _config.yaml
-title: Our example Helm chart repo
-description: A chart repo for storing charts.
+title: e-kavallieri Helm charts
+description: >-
+  Helm charts for the linuxserver.io container images, generated from their
+  upstream documentation. Each chart is a thin values file over a shared
+  base-chart that deploys the image as a StatefulSet.
 theme: minima
 url: "https://ekavallieri.github.io/public-helm-charts"
-repo_name: e-kavallieri
+# Must match the alias in the `helm repo add <alias> <url>` snippet on index.md.
+repo_name: ekavallieri
 
 exclude:
   - Gemfile
